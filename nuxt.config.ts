@@ -2,7 +2,17 @@ import { defineNuxtConfig } from "nuxt/config"
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
+    pageTransition: {
+      name: 'fade',
+      mode: 'out-in' // default
+    },
+    layoutTransition: {
+      name: 'slide',
+      mode: 'out-in' // default
+    },
+    // layoutTransition: { name: 'layout', mode: 'out-in' },
     head: {
+      charset: 'utf-8',
       link: [
         {
           rel: 'preconnect',
