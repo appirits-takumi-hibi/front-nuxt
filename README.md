@@ -27,3 +27,15 @@ make up
 ``` sh
 make stop
 ```
+
+## ディレクトリ構成
+
+- /app
+  - /assets
+  - /components
+  - /layouts
+  - /pages
+    - /xxx
+    - /yyy
+
+[参考記事](https://zenn.dev/melos/articles/44b645f44bc412)
