@@ -7,6 +7,9 @@
 `Docker version 24.0.6, build ed223bc`
 `Docker Compose version v2.21.0-desktop.1`
 
+[Mac intelでのエラー](https://github.com/docker/for-mac/issues/6824)
+[解決案](https://github.com/docker/for-mac/issues/6824#issuecomment-1781819905) or node21使用する
+
 インストールされるversion
 `node v20.10.0`, `npm 10.2.3`, `npx 10.2.3`
 
